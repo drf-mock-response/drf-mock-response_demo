@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drfmockresponse_demo"
+version = "0.1.0"
+description = "Demo project that showcases drfmockresponse library."
+authors = ["Kostas Konstantopoulos <ntopoulos@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0"
+djangorestframework = "^3.13.1"
+drfmockresponse = "^0.1.0"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
